@@ -5,6 +5,7 @@ import sys, os
 from math import sqrt
 import modulek
 from modulek import add_three_numbers as add
+import cowsay
 
 # time.sleep(3);
 # print("12121")
@@ -17,9 +18,11 @@ from modulek import add_three_numbers as add
 #
 # print(sqrt(100))
 
-print(modulek.name)
-modulek.hello()
+# print(modulek.name)
+# modulek.hello()
+#
+# print(add(5, 3, 0))
 
-print(add(5, 3, 0))
+cowsay.cow('jojo')
 
 
